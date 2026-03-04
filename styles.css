@@ -24,68 +24,112 @@ body {
 }
 
 .card {
-    background-color: #c9cac7;
-    border-radius: 12px;
-    padding: 12px 12px;
-    width: 320px;
-    min-height: 360px;
+    background-color: rgb(242, 241, 237);
+    border-radius: 4px;
+    border: 0px solid rgb(38, 37, 30);
+    padding: 13.4px 15px 15px;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(38, 37, 30);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 317.5px;
+    height: 387.77px;
+    text-align: start;
+    letter-spacing: normal;
+    word-spacing: 0;
+    text-indent: 0;
+    position: relative;
+    overflow: visible;
+    margin: 0;
     flex-shrink: 0;
 }
 
 .card-title {
-    font-size: 32px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(38, 37, 30);
+    line-height: 28.6px;
+    letter-spacing: -0.11px;
+    margin: 0;
+    text-align: start;
+    word-spacing: 0;
+    text-indent: 0;
 }
 
 .card-price {
-    font-size: 20px;
-    color: #666;
-    margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: oklab(0.263084 -0.00230259 0.0124794 / 0.6);
+    line-height: 28.6px;
+    letter-spacing: -0.11px;
+    margin: 0;
+    text-align: start;
 }
 
 .card-content {
-    margin-bottom: 32px;
+    margin: 0;
 }
 
 .includes-text {
     font-size: 16px;
-    color: #333;
-    margin-bottom: 16px;
+    font-weight: 400;
+    color: oklab(0.263084 -0.00230259 0.0124794 / 0.6);
+    line-height: 24px;
+    margin: 16.8px 0 0;
+    text-align: start;
+    letter-spacing: normal;
+    word-spacing: 0;
 }
 
 .features-list {
     list-style: none;
     padding: 0;
+    margin: 16.8px 0 0;
+    text-align: start;
 }
 
 .features-list li {
     display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-    font-size: 15px;
-    color: #333;
+    align-items: normal;
+    gap: 7.5px;
+    margin: 0 0 3.73px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(38, 37, 30);
+    line-height: 24px;
 }
 
 .checkmark {
     color: #4a4a4a;
     font-size: 18px;
-    margin-right: 12px;
-    font-weight: bold;
+    margin-top: 3px;
 }
 
 .download-button {
     width: fit-content;
-    background-color: #e6e5e0;
-    border: none;
-    border-radius: 999px;
-    padding: 14px 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 229, 224);
+    border-radius: 9999px;
+    padding: 12.48px 21.6px 12.8px;
     font-size: 16px;
-    font-weight: 500;
-    color: #333;
+    font-weight: 400;
+    font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(38, 37, 30);
+    border: 1px solid oklab(0.263084 -0.00230259 0.0124794 / 0.025);
+    line-height: 16px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    margin: 33.6px 0 0;
+    text-align: start;
+    letter-spacing: normal;
+    word-spacing: 0;
 }
 
 .download-button:hover {
